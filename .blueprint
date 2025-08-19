@@ -1,0 +1,6 @@
+created:
+    - database/factories/TimeRecordFactory.php
+    - database/migrations/2025_08_05_014426_create_time_records_table.php
+    - app/Models/TimeRecord.php
+models:
+    TimeRecord: { start_datetime: 'TIMESTAMP comment:"id"', end_datetime: 'TIMESTAMP comment:"id"', project_name: 'VARCHAR:25 comment:"id"', task_name: 'VARCHAR:25 comment:"タスク名"' }

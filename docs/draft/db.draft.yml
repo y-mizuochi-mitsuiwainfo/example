@@ -1,0 +1,6 @@
+models:
+  TimeRecord:
+    start_datetime: TIMESTAMP comment:"id"
+    end_datetime: TIMESTAMP comment:"id"
+    project_name: VARCHAR:25 comment:"id"
+    task_name: VARCHAR:25 comment:"タスク名"
