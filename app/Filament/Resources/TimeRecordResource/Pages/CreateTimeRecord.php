@@ -25,6 +25,7 @@ class CreateTimeRecord extends CreateRecord
         return[
             $this->getCreateFormAction()//オーバーロード(関数)
             ->label('保存'),
+            // ->label('保存'),
 
             $this->getCancelFormAction()
             ->label('戻る')
